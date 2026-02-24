@@ -2,8 +2,8 @@
 
 import { useState, useCallback } from "react";
 import { kjvVerses, type KJVVerse } from "@/lib/verses";
-import { BookOpen, RefreshCw, Sparkles } from "lucide-react";
-import Link from "next/link";
+import { BookOpen, RefreshCw } from "lucide-react";
+import ComparisonBox from "./ComparisonBox";
 
 export default function VerseGenerator() {
   const [verse, setVerse] = useState<KJVVerse>(kjvVerses[0]);
@@ -51,18 +51,7 @@ export default function VerseGenerator() {
         <p className="text-gray-700 italic leading-relaxed">{verse.text}</p>
       </div>
 
-      <div className="mt-8">
-        <Link
-          href="/generate"
-          className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-xl font-medium hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg shadow-purple-200"
-        >
-          <Sparkles className="h-5 w-5" />
-          Get AI-Powered Insight
-        </Link>
-        <p className="text-sm text-gray-400 mt-2">
-          Deeper explanations, life applications &amp; prayers
-        </p>
-      </div>
+      <ComparisonBox />
     </section>
   );
 }
