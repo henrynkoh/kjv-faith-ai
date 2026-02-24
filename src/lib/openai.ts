@@ -1,8 +1,21 @@
 import OpenAI from "openai";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+let openaiClient: OpenAI | null = null;
+
+function getOpenAIClient(): OpenAI {
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "OPENAI_API_KEY is not set. Add it in Vercel Environment Variables."
+    );
+  }
+
+  if (!openaiClient) {
+    openaiClient = new OpenAI({ apiKey });
+  }
+
+  return openaiClient;
+}
 
 export interface VerseInsight {
   explanation: string;
@@ -13,6 +26,7 @@ export interface VerseInsight {
 export async function generateVerseInsight(
   prompt: string
 ): Promise<VerseInsight> {
+  const openai = getOpenAIClient();
   const completion = await openai.chat.completions.create({
     model: "gpt-4o-mini",
     messages: [
@@ -43,6 +57,7 @@ Respond ONLY with valid JSON, no markdown.`,
 }
 
 export async function generateVerseImage(prompt: string): Promise<string> {
+  const openai = getOpenAIClient();
   const response = await openai.images.generate({
     model: "dall-e-3",
     prompt: `Serene, calming Bible scene representing "${prompt}" — soft watercolor style, open Bible on a wooden table, gentle golden light, peaceful atmosphere. No text in image.`,
