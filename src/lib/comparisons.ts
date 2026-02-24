@@ -186,6 +186,174 @@ export const comparisons: LawGospelComparison[] = [
       text: "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace.",
     },
   },
+  {
+    topic: "Baptism",
+    title: "What is the role of baptism?",
+    law: {
+      ref: "Mark 1:4",
+      text: "John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.",
+    },
+    gospel: {
+      ref: "1 Corinthians 1:17",
+      text: "For Christ sent me not to baptize, but to preach the gospel: not with wisdom of words, lest the cross of Christ should be made of none effect.",
+    },
+  },
+  {
+    topic: "Inheritance",
+    title: "How do we receive our inheritance?",
+    law: {
+      ref: "Deuteronomy 28:1-2",
+      text: "And it shall come to pass, if thou shalt hearken diligently unto the voice of the LORD thy God, to observe and to do all his commandments... all these blessings shall come on thee.",
+    },
+    gospel: {
+      ref: "Ephesians 1:11",
+      text: "In whom also we have obtained an inheritance, being predestinated according to the purpose of him who worketh all things after the counsel of his own will.",
+    },
+  },
+  {
+    topic: "The Spirit",
+    title: "How do we receive the Holy Spirit?",
+    law: {
+      ref: "Acts 2:38",
+      text: "Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.",
+    },
+    gospel: {
+      ref: "Ephesians 1:13",
+      text: "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise.",
+    },
+  },
+  {
+    topic: "Works",
+    title: "What is the role of works?",
+    law: {
+      ref: "James 2:24",
+      text: "Ye see then how that by works a man is justified, and not by faith only.",
+    },
+    gospel: {
+      ref: "Titus 3:5",
+      text: "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost.",
+    },
+  },
+  {
+    topic: "Hope",
+    title: "What is our hope?",
+    law: {
+      ref: "Jeremiah 31:31-33",
+      text: "Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel... I will put my law in their inward parts, and write it in their hearts.",
+    },
+    gospel: {
+      ref: "Titus 2:13",
+      text: "Looking for that blessed hope, and the glorious appearing of the great God and our Saviour Jesus Christ.",
+    },
+  },
+  {
+    topic: "Kingdom",
+    title: "What kingdom is promised?",
+    law: {
+      ref: "Matthew 6:10",
+      text: "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+    },
+    gospel: {
+      ref: "Philippians 3:20",
+      text: "For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ.",
+    },
+  },
+  {
+    topic: "Sin Nature",
+    title: "What about the sin nature?",
+    law: {
+      ref: "Romans 7:24",
+      text: "O wretched man that I am! who shall deliver me from the body of this death?",
+    },
+    gospel: {
+      ref: "Romans 6:6",
+      text: "Knowing this, that our old man is crucified with him, that the body of sin might be destroyed, that henceforth we should not serve sin.",
+    },
+  },
+  {
+    topic: "Peace with God",
+    title: "How do we have peace with God?",
+    law: {
+      ref: "Isaiah 48:22",
+      text: "There is no peace, saith the LORD, unto the wicked.",
+    },
+    gospel: {
+      ref: "Romans 5:1",
+      text: "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.",
+    },
+  },
+  {
+    topic: "Gentiles",
+    title: "What is the status of Gentiles?",
+    law: {
+      ref: "Ephesians 2:12",
+      text: "That at that time ye were without Christ, being aliens from the commonwealth of Israel, and strangers from the covenants of promise, having no hope, and without God in the world.",
+    },
+    gospel: {
+      ref: "Ephesians 2:13",
+      text: "But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ.",
+    },
+  },
+  {
+    topic: "The Temple",
+    title: "Where does God dwell?",
+    law: {
+      ref: "1 Kings 8:27",
+      text: "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?",
+    },
+    gospel: {
+      ref: "1 Corinthians 6:19",
+      text: "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?",
+    },
+  },
+  {
+    topic: "Tithing",
+    title: "Is tithing required?",
+    law: {
+      ref: "Malachi 3:10",
+      text: "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts.",
+    },
+    gospel: {
+      ref: "2 Corinthians 9:7",
+      text: "Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver.",
+    },
+  },
+  {
+    topic: "Confession",
+    title: "Must we confess sins to be forgiven?",
+    law: {
+      ref: "1 John 1:9",
+      text: "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
+    },
+    gospel: {
+      ref: "Colossians 2:13",
+      text: "And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses.",
+    },
+  },
+  {
+    topic: "Adoption",
+    title: "What is our standing before God?",
+    law: {
+      ref: "Exodus 19:5",
+      text: "Now therefore, if ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people.",
+    },
+    gospel: {
+      ref: "Galatians 4:5-6",
+      text: "To redeem them that were under the law, that we might receive the adoption of sons. And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.",
+    },
+  },
+  {
+    topic: "Liberty",
+    title: "Are we free or bound?",
+    law: {
+      ref: "Acts 15:10",
+      text: "Now therefore why tempt ye God, to put a yoke upon the neck of the disciples, which neither our fathers nor we were able to bear?",
+    },
+    gospel: {
+      ref: "Galatians 5:1",
+      text: "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+    },
+  },
 ];
 
 export function getRandomComparison(): LawGospelComparison {
