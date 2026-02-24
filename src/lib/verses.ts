@@ -200,6 +200,201 @@ export const kjvVerses: KJVVerse[] = [
     text: "For I am not ashamed of the gospel of Christ: for it is the power of God unto salvation to every one that believeth; to the Jew first, and also to the Greek.",
     theme: "power of the gospel",
   },
+  {
+    ref: "Romans 8:1",
+    text: "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+    theme: "no condemnation",
+  },
+  {
+    ref: "Romans 8:28",
+    text: "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+    theme: "all things work together",
+  },
+  {
+    ref: "Romans 8:38-39",
+    text: "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+    theme: "inseparable love",
+  },
+  {
+    ref: "Galatians 3:24-25",
+    text: "Wherefore the law was our schoolmaster to bring us unto Christ, that we might be justified by faith. But after that faith is come, we are no longer under a schoolmaster.",
+    theme: "schoolmaster ended",
+  },
+  {
+    ref: "Ephesians 2:13",
+    text: "But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ.",
+    theme: "made nigh",
+  },
+  {
+    ref: "Ephesians 4:4-5",
+    text: "There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism.",
+    theme: "one body",
+  },
+  {
+    ref: "Colossians 2:13-14",
+    text: "And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, having forgiven you all trespasses; Blotting out the handwriting of ordinances that was against us, which was contrary to us, and took it out of the way, nailing it to his cross.",
+    theme: "ordinances nailed to cross",
+  },
+  {
+    ref: "Colossians 3:1-2",
+    text: "If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God. Set your affection on things above, not on things on the earth.",
+    theme: "seek things above",
+  },
+  {
+    ref: "Philippians 3:20",
+    text: "For our conversation is in heaven; from whence also we look for the Saviour, the Lord Jesus Christ.",
+    theme: "heavenly citizenship",
+  },
+  {
+    ref: "Titus 2:11-12",
+    text: "For the grace of God that bringeth salvation hath appeared to all men, Teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world.",
+    theme: "grace teaches",
+  },
+  {
+    ref: "Titus 3:5",
+    text: "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost.",
+    theme: "saved by mercy",
+  },
+  {
+    ref: "2 Corinthians 5:17",
+    text: "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
+    theme: "new creature",
+  },
+  {
+    ref: "2 Corinthians 5:21",
+    text: "For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him.",
+    theme: "made righteousness",
+  },
+  {
+    ref: "2 Corinthians 12:9",
+    text: "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+    theme: "sufficient grace",
+  },
+  {
+    ref: "Galatians 2:20",
+    text: "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.",
+    theme: "crucified with Christ",
+  },
+  {
+    ref: "Galatians 3:13",
+    text: "Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed is every one that hangeth on a tree.",
+    theme: "redeemed from curse",
+  },
+  {
+    ref: "Galatians 5:1",
+    text: "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage.",
+    theme: "liberty in Christ",
+  },
+  {
+    ref: "Romans 5:8",
+    text: "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+    theme: "God's love demonstrated",
+  },
+  {
+    ref: "Romans 5:1",
+    text: "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ.",
+    theme: "peace through faith",
+  },
+  {
+    ref: "Romans 6:23",
+    text: "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
+    theme: "gift of eternal life",
+  },
+  {
+    ref: "Romans 10:4",
+    text: "For Christ is the end of the law for righteousness to every one that believeth.",
+    theme: "Christ end of law",
+  },
+  {
+    ref: "Romans 11:6",
+    text: "And if by grace, then is it no more of works: otherwise grace is no more grace. But if it be of works, then is it no more grace: otherwise work is no more work.",
+    theme: "grace vs works",
+  },
+  {
+    ref: "Romans 12:2",
+    text: "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.",
+    theme: "renewed mind",
+  },
+  {
+    ref: "Ephesians 1:3",
+    text: "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ.",
+    theme: "spiritual blessings",
+  },
+  {
+    ref: "Ephesians 2:4-5",
+    text: "But God, who is rich in mercy, for his great love wherewith he loved us, Even when we were dead in sins, hath quickened us together with Christ, (by grace ye are saved).",
+    theme: "rich in mercy",
+  },
+  {
+    ref: "Ephesians 4:32",
+    text: "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.",
+    theme: "forgiving as forgiven",
+  },
+  {
+    ref: "Ephesians 6:12",
+    text: "For we wrestle not against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this world, against spiritual wickedness in high places.",
+    theme: "spiritual warfare",
+  },
+  {
+    ref: "Philippians 4:13",
+    text: "I can do all things through Christ which strengtheneth me.",
+    theme: "strength in Christ",
+  },
+  {
+    ref: "Colossians 2:9-10",
+    text: "For in him dwelleth all the fulness of the Godhead bodily. And ye are complete in him, which is the head of all principality and power.",
+    theme: "complete in Christ",
+  },
+  {
+    ref: "1 Timothy 2:5",
+    text: "For there is one God, and one mediator between God and men, the man Christ Jesus.",
+    theme: "one mediator",
+  },
+  {
+    ref: "2 Timothy 3:16-17",
+    text: "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, throughly furnished unto all good works.",
+    theme: "all scripture inspired",
+  },
+  {
+    ref: "1 Corinthians 1:18",
+    text: "For the preaching of the cross is to them that perish foolishness; but unto us which are saved it is the power of God.",
+    theme: "preaching of the cross",
+  },
+  {
+    ref: "1 Corinthians 3:11",
+    text: "For other foundation can no man lay than that is laid, which is Jesus Christ.",
+    theme: "Christ the foundation",
+  },
+  {
+    ref: "1 Corinthians 6:19-20",
+    text: "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.",
+    theme: "body as temple",
+  },
+  {
+    ref: "1 Corinthians 9:17",
+    text: "For if I do this thing willingly, I have a reward: but if against my will, a dispensation of the gospel is committed unto me.",
+    theme: "dispensation committed",
+  },
+  {
+    ref: "1 Thessalonians 4:16-17",
+    text: "For the Lord himself shall descend from heaven with a shout, with the voice of the archangel, and with the trump of God: and the dead in Christ shall rise first: Then we which are alive and remain shall be caught up together with them in the clouds, to meet the Lord in the air: and so shall we ever be with the Lord.",
+    theme: "the rapture",
+  },
+  {
+    ref: "1 Thessalonians 5:9",
+    text: "For God hath not appointed us to wrath, but to obtain salvation by our Lord Jesus Christ.",
+    theme: "not appointed to wrath",
+  },
+  {
+    ref: "Romans 16:17",
+    text: "Now I beseech you, brethren, mark them which cause divisions and offences contrary to the doctrine which ye have learned; and avoid them.",
+    theme: "mark false doctrine",
+  },
+  {
+    ref: "Galatians 4:5-6",
+    text: "To redeem them that were under the law, that we might receive the adoption of sons. And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father.",
+    theme: "adoption of sons",
+  },
 ];
 
 export function getRandomVerse(): KJVVerse {
